@@ -1,22 +1,28 @@
-# 🍔 Food App (Dynamic Menu App)
-
+# 🍔 Food App (Dynamic Online Menu)
 ![Project Preview](flow.gif)
-
 # 📝 About the Project
-This project is a front-end-focused menu application developed for a restaurant or online food ordering platform. Its goal is to dynamically manage static HTML content using JavaScript, filter content based on user input, and implement simple page routing logic.
+This is a dynamic menu application designed for a restaurant or food ordering platform, built entirely with JavaScript (no large frameworks required).
 
-# ✨ Application Features
-Dynamic Menu List: Menu content is retrieved from the db.json file and listed by category on the home page (index.html).
-Detail Page Redirect: Detailed information about the product selected by the user from the list is dynamically displayed on the detail.html page using URL parameters.
-Category Filtering: Allows users to easily filter the menu by category (e.g., Starters, Main Courses, Desserts).
-Responsive Design: Fully compatible with mobile and desktop devices.
+The main goal of this project was to showcase effective DOM manipulation, data fetching, and simple routing logic to handle dynamic content without relying on external libraries.
 
+The application successfully renders menu items, allows users to navigate to a dedicated detail page for each item, and filters the menu based on category.
 
-# 🛠️ Technologies Used
-HTML5: Page structure and semantic markup.
-CSS3: Basic styling and responsive layouts.
-JavaScript.
-Data Fetching (Fetch API or synchronous reading).
-DOM Manipulation.
-Simple Page Routing and URL Parameter Management.
-db.json: Mock database file containing the project's product and menu data.
+# ✨ Key Features
+Dynamic Menu Rendering: Fetches product data from a local db.json file and dynamically creates the menu list on the homepage.
+
+Category Filtering: Allows users to filter the menu quickly by category (e.g., Appetizers, Desserts).
+
+Dedicated Detail Page: Implements simple URL parameter routing to display detailed information for a single food item on the detail.html page.
+
+Pure Frontend Logic: All functionality, including data parsing and content generation, is handled using JavaScript.
+
+Responsive Design: Ensures a seamless experience across various screen sizes (mobile, tablet, desktop).
+
+# 🛠️ Tech Stack
+HTML5: Semantic structure.
+
+CSS3: Styling and layout.
+
+Vanilla JavaScript (ES6+): Core logic, data fetching, DOM manipulation, and routing.
+
+Mock Data (db.json): Used to simulate a backend API response for product information.
