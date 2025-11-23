@@ -14,7 +14,7 @@ Category Filtering: Allows users to easily filter the menu by category (e.g., St
 
 Responsive Design: Fully compatible with mobile and desktop devices.
 
-# 🛠️ Technologies Used
+# 🛠️Technologies Used
 
 -HTML5: Page structure and semantic markup.
 -CSS3: Basic styling and responsive layouts.
